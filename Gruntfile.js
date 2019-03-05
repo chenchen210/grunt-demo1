@@ -1,21 +1,19 @@
 module.exports = function(grunt) {
   grunt.initConfig({
-    csshint: {
-      css: {
-        options: {
-            csslintrc : '.csslintrc '
-            
-        },
-          src: ['*.css']
+    csslint: {
+      options: {
+                csslintrc: '.csslintrc'
           
-      }
-               
+      },
+        src: ['rectangle.css']
+        
     }
                
   });
 
-    grunt.loadNpmTasks(' grunt-contrib-csslint');
+    grunt.loadNpmTasks('grunt-contrib-csslint');
 
-      grunt.registerTask('default', ['csshint']);
+      grunt.registerTask('default', ['csslint']);
 
 };
+
