@@ -1,9 +1,9 @@
-module.exports = function() {
+module.exports = function(grunt) {
   grunt.initConfig({
     less: {
       development: {
         files: {
-                    'css/': 'less/'
+                    'css/layout.css': 'less/layout.less'
             
         }
                      
@@ -18,4 +18,3 @@ module.exports = function() {
       grunt.registerTask('default', ['less']);
 
 };
-
