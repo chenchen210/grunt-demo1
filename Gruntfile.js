@@ -3,18 +3,14 @@ module.exports = function(grunt) {
     less: {
       development: {
         files: {
-                    'css/layout.css': 'less/layout.less'
-            
-        }
-                     
-      }
-                       
-    }
-            
+          'css/layout.css': 'less/layout.less'    
+        }             
+      }                 
+    }         
   });
 
-    grunt.loadNpmTasks('grunt-contrib-less');
+  grunt.loadNpmTasks('grunt-contrib-less');
 
-      grunt.registerTask('default', ['less']);
+  grunt.registerTask('default', ['less']);
 
 };

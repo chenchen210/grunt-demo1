@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/chenchen210/grunt-demo1/issues"
   },
-  "homepage": "https://github.com/chenchen210/grunt-demo1#readme"
+  "homepage": "https://github.com/chenchen210/grunt-demo1#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-less": "^2.0.0"
+  }
 }
