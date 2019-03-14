@@ -1,0 +1,25 @@
+{
+  "name": "grunt-demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenchen210/grunt-demo1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenchen210/grunt-demo1/issues"
+  },
+  "homepage": "https://github.com/chenchen210/grunt-demo1#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-mocha": "^1.2.0",
+    "grunt-mocha-cli": "^4.0.0",
+    "grunt-mocha-istanbul": "^5.0.2"
+  }
+}
